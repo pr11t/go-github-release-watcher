@@ -4,4 +4,4 @@ repositories:
   - owner: pr11t
     name: pi_telegram
     assetpattern: ".*_Linux_arm64.tar.gz"
-    targetdir: C:\Users\Kass\releases\pi_telegram\
+    targetdir: ~\releases\
