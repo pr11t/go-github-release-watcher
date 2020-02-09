@@ -79,6 +79,8 @@ func GetLatestReleases(conf finalConfig) {
 		asset := getLatestMatchingAsset(client, repo)
 		if asset != nil {
 			downloadAsset(client, repo, asset)
+		} else {
+			fmt.Printf("No matching assets found in %s\\%s\n", repo.Owner, repo.Name)
 		}
 	}
 }
