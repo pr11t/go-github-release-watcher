@@ -3,5 +3,5 @@ waitbetweenchecks: 10
 repositories:
   - owner: pr11t
     name: pi_telegram
-    assetpattern: ".*_Linux_arm64.tar.gz"
+    assetpattern: ".*_Linux_arm.tar.gz"
     targetdir: ~\releases\
